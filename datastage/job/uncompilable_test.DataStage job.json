@@ -1,0 +1,32 @@
+{
+  "metadata" : {
+    "name" : "uncompilable_test.DataStage job",
+    "asset_id" : "e4f0f3ef-3ede-44d1-b306-479951350229",
+    "owner_id" : "1000330999",
+    "version" : 0
+  },
+  "entity" : {
+    "job" : {
+      "asset_ref_type" : "data_intg_flow",
+      "configuration" : {
+        "flow_limits" : {
+          "warn_limit" : "100"
+        },
+        "runPriorityQueue" : "Medium",
+        "env_type" : "",
+        "env_variables" : [ ]
+      },
+      "last_run_initiator" : "deprecated field",
+      "last_run_time" : "deprecated field",
+      "last_run_status" : "deprecated field",
+      "last_run_status_timestamp" : 0,
+      "future_scheduled_runs" : [ ],
+      "enable_notifications" : true,
+      "project_name" : "DrewMigrationDev",
+      "asset_ref" : "4bbe99bd-6b7c-40dc-8517-4e431fb15c0d",
+      "schedule_id" : "",
+      "schedule_creator_id" : "",
+      "flow_name" : "uncompilable_test"
+    }
+  }
+}

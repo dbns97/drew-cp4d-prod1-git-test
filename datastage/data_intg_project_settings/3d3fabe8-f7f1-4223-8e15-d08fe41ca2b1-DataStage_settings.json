@@ -1,0 +1,49 @@
+{
+  "project" : {
+    "runMessageHandlerId" : "",
+    "formatDecimalSeparator" : "",
+    "testDataBasePath" : "",
+    "jobNameSuffix" : ".DataStage job",
+    "sequenceNameSuffix" : ".DataStage sequence",
+    "defineParameters" : false,
+    "runEnvironmentId" : "3569adb5-b4ca-4f1c-97d4-3c2f160e5336",
+    "runPriorityQueue" : "Medium",
+    "runArtifactRetention" : {
+      "enabled" : false
+    },
+    "runRemoteEngineEnforcement" : false,
+    "testDataProperties" : {
+      "testCaseJobNameSuffix" : ".DataStageTestCase Job",
+      "testDataConnectionType" : "Storage Volume"
+    },
+    "saveFrequency" : "save_changes_automatically",
+    "gitIntegration" : {
+      "enableGit" : true,
+      "gitProvider" : "git",
+      "gitFolder" : "datastage",
+      "gitToken" : "{dsnextenc}cBz5m2E/UMGFj6/95qBdtcfcrYtOE64ZDZW+xQRn8bIo5dvZbaw26qvnjsswlxQ2",
+      "gitURL" : "https://github.com/dbns97/drew-cp4d-git-test.git",
+      "gitBranch" : ""
+    },
+    "formatTimeString" : "",
+    "thresholdLimits" : { },
+    "formatDateString" : "",
+    "flowLimits" : {
+      "warnLimit" : 100
+    },
+    "testDataConnectionId" : "bd808427-9b0d-4b9e-b48c-43f917877cb2",
+    "nlsCollate" : "OFF",
+    "metricsRepository" : {
+      "enableMetrics" : false,
+      "metricsRetention" : {
+        "enabled" : false
+      },
+      "connection" : { },
+      "enableAdvancedFind" : false
+    },
+    "disableParamsRefreshCache" : false,
+    "nlsMap" : "",
+    "formatTimestampString" : "",
+    "runEnvironmentNames" : [ "default_datastage_px" ]
+  }
+}
