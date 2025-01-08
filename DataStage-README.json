@@ -1,0 +1,37 @@
+{
+  "project" : "DrewTest",
+  "projectId" : "3c9c55ae-7d48-43e1-a812-c5501099c185",
+  "created_by" : "drew",
+  "created_at" : "2025-01-08T04:15:10.922251968Z",
+  "environment" : "cp4d",
+  "services_info" : [ {
+    "name" : "ds-canvas",
+    "version" : "510.0.59"
+  }, {
+    "name" : "ds-flows",
+    "version" : "510.0.27"
+  }, {
+    "name" : "ds-codegen",
+    "version" : "510.0.27"
+  }, {
+    "name" : "ds-flow-runtime",
+    "version" : "510.0.7"
+  }, {
+    "name" : "ds-migration",
+    "version" : "510.0.30"
+  }, {
+    "name" : "DSAssets",
+    "version" : "510.0.5"
+  }, {
+    "name" : "ds-cas-lite",
+    "version" : "510.0.3"
+  }, {
+    "name" : "ds-px-runtime",
+    "version" : "510.0.22"
+  }, {
+    "name" : "qs-ruleset",
+    "version" : "510.0.5"
+  } ],
+  "assets" : [ ],
+  "flow_job_mapping" : [ ]
+}
