@@ -1,14 +1,15 @@
 {
   "datasource_type" : "9f30e3c3-b854-4144-b5c3-98b7a835dc79",
   "data_source_definition_searchable" : "internal-nginx-svc.dm.svc|12443|dm::beta2-nfs-mettleci",
+  "description" : "test description",
   "name" : "DummyConnection",
   "flags" : [ "personal_credentials" ],
   "origin_country" : "us",
   "rov" : {
     "mode" : 0,
     "member_roles" : {
-      "1000331004" : {
-        "user_iam_id" : "1000331004",
+      "1000331002" : {
+        "user_iam_id" : "1000331002",
         "roles" : [ "OWNER" ]
       }
     }
@@ -20,7 +21,7 @@
     "instance_id" : "1730862556912150",
     "gateway_url" : "https://internal-nginx-svc.dm.svc:12443",
     "read_timeout" : "300",
-    "inherit_access_token" : "{dsmenc}YIwieT+X3SmF6JwV0s8UOg=="
+    "inherit_access_token" : "false"
   },
   "interaction_properties" : {
     "source" : [ {
