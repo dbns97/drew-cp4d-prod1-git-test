@@ -2,7 +2,7 @@
   "project" : "DrewTestCI",
   "projectId" : "2914f208-952c-4092-b19d-ff714f05220f",
   "created_by" : "drew",
-  "created_at" : "2025-01-21T02:13:20.713289191Z",
+  "created_at" : "2025-01-21T05:42:39.947912243Z",
   "environment" : "cp4d",
   "services_info" : [ {
     "name" : "ds-canvas",
@@ -56,12 +56,12 @@
     "name" : "uncompilable_test.DataStage job",
     "type" : "job"
   }, {
-    "name" : "TestFlow2.DataStage job.",
-    "type" : "job",
-    "location" : ""
-  }, {
     "name" : "DummyConnection.",
     "type" : "connection",
+    "location" : ""
+  }, {
+    "name" : "TestFlow2.DataStage job.",
+    "type" : "job",
     "location" : ""
   }, {
     "name" : "uncompilable_test",

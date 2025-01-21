@@ -3,7 +3,7 @@
   "data_source_definition_searchable" : "internal-nginx-svc.dm.svc|12443|dm::beta2-nfs-mettleci",
   "description" : "test description 6",
   "name" : "DummyConnection",
-  "flags" : [ "personal_credentials" ],
+  "flags" : [ "parameterized" ],
   "origin_country" : "us",
   "rov" : {
     "mode" : 0,
