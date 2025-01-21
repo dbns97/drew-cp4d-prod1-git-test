@@ -2,7 +2,7 @@
   "project" : "DrewTest",
   "projectId" : "3c9c55ae-7d48-43e1-a812-c5501099c185",
   "created_by" : "drew",
-  "created_at" : "2025-01-10T01:40:05.931323577Z",
+  "created_at" : "2025-01-21T01:04:27.390783498Z",
   "environment" : "cp4d",
   "services_info" : [ {
     "name" : "ds-canvas",
@@ -45,6 +45,10 @@
   }, {
     "name" : "DummyConnection",
     "type" : "connection"
+  }, {
+    "name" : "TestFlow2.",
+    "type" : "data_intg_flow",
+    "location" : ""
   }, {
     "name" : "3d3fabe8-f7f1-4223-8e15-d08fe41ca2b1-DataStage_settings",
     "type" : "data_intg_project_settings"
