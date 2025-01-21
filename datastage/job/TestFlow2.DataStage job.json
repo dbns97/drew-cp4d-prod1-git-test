@@ -1,7 +1,7 @@
 {
   "metadata" : {
     "name" : "TestFlow2.DataStage job",
-    "asset_id" : "803fe29e-8e9b-4e81-878d-35a662a2f55d",
+    "asset_id" : "ee065b63-a1a6-42ec-9cb6-44bf994e8758",
     "owner_id" : "1000331002",
     "version" : 0
   },
@@ -22,8 +22,8 @@
       "last_run_status_timestamp" : 0,
       "future_scheduled_runs" : [ ],
       "enable_notifications" : true,
-      "project_name" : "DrewTestCI",
-      "asset_ref" : "1389d6bc-8e39-47c7-a210-7c2ca3d83d45",
+      "project_name" : "DrewTest",
+      "asset_ref" : "0cf2c6fd-db4b-49c4-9516-04a4ee65d5bb",
       "schedule_id" : "",
       "schedule_creator_id" : "",
       "flow_name" : "TestFlow2"
