@@ -25,14 +25,15 @@
         }
       } ],
       "connection" : {
-        "ref" : "83efb924-6a43-453b-82d8-b074743c9ae2",
-        "project_ref" : "3c9c55ae-7d48-43e1-a812-c5501099c185",
+        "ref" : "1e70a61f-f26a-4a3c-bd07-d2afd7895763",
+        "project_ref" : "2914f208-952c-4092-b19d-ff714f05220f",
         "fileData" : {
           "bucketName" : "",
           "op" : "existing-asset",
           "fileName" : "",
           "stageName" : "volumes"
         },
+        "name" : "DummyConnection",
         "connData" : {
           "op" : "existing-asset",
           "stageName" : "volumes",
@@ -44,8 +45,7 @@
           "valueDerivation" : [ ],
           "stageDescription" : "",
           "url" : ""
-        },
-        "name" : "DummyConnection"
+        }
       },
       "id" : "45950e0e-c6a6-46fd-a489-8c19f67b0e94",
       "type" : "binding",
