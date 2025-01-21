@@ -10,12 +10,12 @@
     "iam_id" : "",
     "git_user" : "dbns97"
   },
-  "commit-time" : "2025-01-21T05:42:44Z",
-  "commit-sha" : "574d5d70aa65a1eba50270f8644f677816e9bf1d",
+  "commit-time" : "2025-01-21T06:11:33Z",
+  "commit-sha" : "e644a6e3c04706459f304e6bd5c143e4a5c2d328",
   "readme" : {
     "name" : "DataStage-README.json",
-    "sha" : "0efc884233cd421ea89abab5156ba79d2e4f32a8",
-    "size" : 1623,
+    "sha" : "9e655c3561059045cf9dc2e59e06b2ba99866ee6",
+    "size" : 1712,
     "asset_type" : "readme",
     "resource_key" : "",
     "iam_id" : "",
@@ -2349,7 +2349,21 @@
     }
   },
   "data_definition" : { },
-  "data_intg_subflow" : { },
+  "data_intg_subflow" : {
+    "TestSubflow1" : {
+      "id" : "d03c558c-12b2-4a71-b97a-63c2ed7c3679",
+      "name" : "TestSubflow1",
+      "sha" : "239bf6f255ef80745a114f478a6da5a60c427ae2",
+      "size" : 7029,
+      "created_at" : "2025-01-21T05:50:38Z",
+      "updated_at" : "1737439737122",
+      "asset_type" : "data_intg_subflow",
+      "resource_key" : "",
+      "iam_id" : "1000331002",
+      "user_name" : "drew",
+      "git_user" : "dbns97"
+    }
+  },
   "standardization_rule" : { },
   "data_intg_build_stage" : { },
   "data_intg_custom_stage" : { },

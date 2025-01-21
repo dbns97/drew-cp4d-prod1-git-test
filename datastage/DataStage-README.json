@@ -1,8 +1,8 @@
 {
-  "project" : "DrewTestCI",
-  "projectId" : "2914f208-952c-4092-b19d-ff714f05220f",
+  "project" : "DrewTest",
+  "projectId" : "3c9c55ae-7d48-43e1-a812-c5501099c185",
   "created_by" : "drew",
-  "created_at" : "2025-01-21T05:42:39.947912243Z",
+  "created_at" : "2025-01-21T06:11:29.035289314Z",
   "environment" : "cp4d",
   "services_info" : [ {
     "name" : "ds-canvas",
@@ -35,6 +35,10 @@
   "assets" : [ {
     "name" : "commit-test-flow.",
     "type" : "data_intg_flow",
+    "location" : ""
+  }, {
+    "name" : "TestSubflow1.",
+    "type" : "data_intg_subflow",
     "location" : ""
   }, {
     "name" : "PROJDEF",
