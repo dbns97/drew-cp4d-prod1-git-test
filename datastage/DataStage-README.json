@@ -2,7 +2,7 @@
   "project" : "DrewTest",
   "projectId" : "3c9c55ae-7d48-43e1-a812-c5501099c185",
   "created_by" : "drew",
-  "created_at" : "2025-01-22T03:23:31.612034991Z",
+  "created_at" : "2025-01-22T04:04:17.782378879Z",
   "environment" : "cp4d",
   "services_info" : [ {
     "name" : "ds-canvas",
@@ -35,6 +35,10 @@
   "assets" : [ {
     "name" : "commit-test-flow.",
     "type" : "data_intg_flow",
+    "location" : ""
+  }, {
+    "name" : "S3-Connection1.",
+    "type" : "connection",
     "location" : ""
   }, {
     "name" : "TestSubflow1.",
