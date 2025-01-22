@@ -6,7 +6,7 @@
   "primary_pipeline" : "e4f8f7ed-99df-4dbb-b851-9b94feea979a",
   "pipelines" : [ {
     "id" : "e4f8f7ed-99df-4dbb-b851-9b94feea979a",
-    "description" : "",
+    "description" : "test",
     "runtime_ref" : "pxOsh",
     "nodes" : [ {
       "id" : "0f7ff016-db53-4114-b48c-5022f5730d5b",
