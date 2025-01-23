@@ -133,7 +133,7 @@
         "name" : "TestSubflow1"
       }
     } ],
-    "description" : "test 2",
+    "description" : "test 3",
     "id" : "be977ce5-6283-408a-9a39-a69b9241106a",
     "app_data" : {
       "datastage" : {
