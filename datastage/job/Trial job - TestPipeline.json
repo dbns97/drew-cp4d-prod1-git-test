@@ -1,0 +1,31 @@
+{
+  "metadata" : {
+    "name" : "Trial job - TestPipeline",
+    "description" : "Trial job and run created for the pipeline: TestPipeline",
+    "asset_id" : "54400e79-6b90-4ad9-bb65-2c9b7a770805",
+    "owner_id" : "1000330999",
+    "version" : 0
+  },
+  "entity" : {
+    "job" : {
+      "asset_ref" : "6ee6acf1-71be-4eaa-ad71-30b81b90260b",
+      "schedule_id" : "",
+      "project_name" : "DrewTest",
+      "configuration" : {
+        "version" : "6ee6acf1-71be-4eaa-ad71-30b81b90260b-0",
+        "env_type" : "",
+        "sub_type" : "oflow_trial_run",
+        "env_variables" : [ ]
+      },
+      "last_run_time" : "deprecated field",
+      "asset_ref_type" : "orchestration_flow",
+      "last_run_status" : "deprecated field",
+      "last_run_initiator" : "deprecated field",
+      "schedule_creator_id" : "",
+      "enable_notifications" : true,
+      "future_scheduled_runs" : [ ],
+      "last_run_status_timestamp" : 0,
+      "flow_name" : "TestPipeline"
+    }
+  }
+}
