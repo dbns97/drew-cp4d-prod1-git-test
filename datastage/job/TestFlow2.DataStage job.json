@@ -1,31 +1,31 @@
 {
   "metadata" : {
     "name" : "TestFlow2.DataStage job",
-    "asset_id" : "ee065b63-a1a6-42ec-9cb6-44bf994e8758",
-    "owner_id" : "1000331002",
+    "asset_id" : "9c331ba1-408e-4572-acb5-ccd61c1685b0",
+    "owner_id" : "1000330999",
     "version" : 0
   },
   "entity" : {
     "job" : {
-      "asset_ref_type" : "data_intg_flow",
+      "asset_ref" : "da944985-f20f-4e31-a4cf-051fc250d799",
+      "schedule_id" : "",
+      "project_name" : "DrewTest",
       "configuration" : {
+        "env_type" : "",
         "flow_limits" : {
           "warn_limit" : "100"
         },
-        "runPriorityQueue" : "Medium",
-        "env_type" : "",
-        "env_variables" : [ ]
+        "env_variables" : [ ],
+        "runPriorityQueue" : "Medium"
       },
-      "last_run_initiator" : "deprecated field",
       "last_run_time" : "deprecated field",
+      "asset_ref_type" : "data_intg_flow",
       "last_run_status" : "deprecated field",
-      "last_run_status_timestamp" : 0,
-      "future_scheduled_runs" : [ ],
-      "enable_notifications" : true,
-      "project_name" : "DrewTest",
-      "asset_ref" : "0cf2c6fd-db4b-49c4-9516-04a4ee65d5bb",
-      "schedule_id" : "",
+      "last_run_initiator" : "deprecated field",
       "schedule_creator_id" : "",
+      "enable_notifications" : true,
+      "future_scheduled_runs" : [ ],
+      "last_run_status_timestamp" : 0,
       "flow_name" : "TestFlow2"
     }
   }

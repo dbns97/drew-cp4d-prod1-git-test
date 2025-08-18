@@ -128,9 +128,71 @@
         "execmode" : "default_par"
       },
       "subflow_ref" : {
-        "url" : "https://cpd-dm.apps.prod1.dm-cpd.mettleci.cloud/data_intg/v3/data_intg_flows/subflows/d03c558c-12b2-4a71-b97a-63c2ed7c3679?project_id=3c9c55ae-7d48-43e1-a812-c5501099c185",
+        "url" : "https://datastage-ibm-datastage-ds-nginx.dm.svc/data_intg/v3/data_intg_flows/subflows/855f71cc-8ef5-4829-9435-5adb48c2f661?project_id=78f1b837-bc4a-4441-9c6f-354598e12b88",
         "pipeline_id_ref" : "e4f8f7ed-99df-4dbb-b851-9b94feea979a",
         "name" : "TestSubflow1"
+      }
+    }, {
+      "outputs" : [ {
+        "id" : "",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "outPort",
+            "cardinality" : { }
+          }
+        },
+        "parameters" : {
+          "buf_mode" : "default"
+        }
+      } ],
+      "op" : "volumes",
+      "inputs" : [ {
+        "id" : "",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "inPort",
+            "cardinality" : { }
+          }
+        }
+      } ],
+      "connection" : {
+        "ref" : "cc4daecf-314a-4c7a-9707-e50403879450",
+        "project_ref" : "78f1b837-bc4a-4441-9c6f-354598e12b88",
+        "fileData" : {
+          "bucketName" : "",
+          "op" : "existing-asset",
+          "fileName" : "",
+          "stageName" : "volumes"
+        },
+        "connData" : {
+          "op" : "existing-asset",
+          "stageName" : "volumes",
+          "connectionName" : "DummyConnection"
+        },
+        "properties" : {
+          "outputName" : "Link_1",
+          "read_mode" : "read_single",
+          "valueDerivation" : [ ],
+          "stageDescription" : "",
+          "url" : ""
+        },
+        "name" : "DummyConnection"
+      },
+      "id" : "5bb8b9d9-7f9b-4cc4-9684-6cf51fffa48b",
+      "type" : "binding",
+      "app_data" : {
+        "ui_data" : {
+          "image" : "/data-intg/flows/graphics/palette/volumes.svg",
+          "x_pos" : 506.88,
+          "label" : "DummyConnection_1",
+          "y_pos" : 205.92
+        }
+      },
+      "parameters" : {
+        "output_count" : 0,
+        "input_count" : 0,
+        "execmode" : "default_par",
+        "outputcolProperties" : [ ]
       }
     } ],
     "description" : "test 3",
@@ -157,6 +219,7 @@
       "decimal_separator" : "",
       "flowRunPriorityQueue" : "Medium",
       "time_format" : "",
+      "external_message_handlers" : [ ],
       "date_format" : "",
       "message_handlers" : [ ],
       "version" : "3.0.5"
@@ -168,6 +231,7 @@
         "label" : "Generate nested SQL",
         "value" : "NESTED_QUERY"
       },
+      "saveChangeFrequency" : "apply_changes_temporarily",
       "disableParamsCacheOnFlow" : false,
       "rcpLinkList" : [ ],
       "globalAcp" : true,
