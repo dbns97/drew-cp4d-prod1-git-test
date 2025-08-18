@@ -2,11 +2,11 @@
   "doc_type" : "subpipeline",
   "version" : "3.0",
   "json_schema" : "https://api.dataplatform.ibm.com/schemas/common-pipeline/pipeline-flow/pipeline-flow-v3-schema.json",
-  "id" : "d03c558c-12b2-4a71-b97a-63c2ed7c3679",
+  "id" : "855f71cc-8ef5-4829-9435-5adb48c2f661",
   "primary_pipeline" : "e4f8f7ed-99df-4dbb-b851-9b94feea979a",
   "pipelines" : [ {
     "id" : "e4f8f7ed-99df-4dbb-b851-9b94feea979a",
-    "description" : "test 2",
+    "description" : "test 2 asdgfadsgdsags",
     "runtime_ref" : "pxOsh",
     "nodes" : [ {
       "id" : "0f7ff016-db53-4114-b48c-5022f5730d5b",
@@ -39,16 +39,16 @@
           }
         },
         "parameters" : {
+          "records" : 10,
           "buf_mode" : "default",
-          "enableSchemalessDesign" : false,
-          "records" : 10
+          "enableSchemalessDesign" : false
         }
       } ],
       "parameters" : {
-        "input_count" : 0,
-        "output_count" : 1,
-        "execmode" : "default_seq",
         "combinability" : "auto",
+        "output_count" : 1,
+        "input_count" : 0,
+        "execmode" : "default_seq",
         "preserve" : -3
       }
     }, {
@@ -114,13 +114,15 @@
                 "position" : "middle",
                 "label" : "Link_1",
                 "label_allow_return_key" : "save",
-                "x_pos" : -18,
+                "x_pos" : 0,
                 "y_pos" : -20,
                 "temporary" : false,
-                "width" : 100,
-                "height" : 80,
+                "width" : 116,
+                "height" : 20,
+                "tooltip" : "Link_1",
                 "label_editable" : true,
-                "label_single_line" : true
+                "label_single_line" : true,
+                "label_align" : "center"
               } ]
             }
           },
@@ -146,36 +148,97 @@
       } ],
       "parameters" : {
         "all" : " ",
-        "nrecs" : 10,
-        "selection" : " ",
-        "columns" : " ",
-        "dataset" : " ",
-        "name" : "name",
-        "execmode" : "default_par",
-        "showCollType" : false,
         "showPartType" : true,
+        "columns" : " ",
+        "showCollType" : false,
+        "inputName" : "Link_1",
+        "showSortOptions" : false,
         "combinability" : "auto",
         "OutputlinkOrderingList" : [ ],
-        "input_count" : 1,
-        "output_count" : 0,
-        "inputName" : "Link_1",
         "inputcolProperties" : [ {
-          "ColumnName" : "COLUMN_1",
-          "Key" : false,
-          "DataType" : "CHAR",
-          "Signed" : true,
           "Unicode" : false,
-          "Length" : 100,
-          "Scale" : 0,
-          "Nullable" : false,
           "Description" : "",
+          "Signed" : true,
           "Metadata" : "CHAR(100)",
+          "Scale" : 0,
+          "TimeScale" : 0,
           "OldColumnName" : "COLUMN_1",
           "TempOldColumnName" : "COLUMN_1",
+          "ColumnName" : "COLUMN_1",
+          "Length" : 100,
           "MisFieldProperties" : "",
-          "TimeScale" : 0
+          "DataType" : "CHAR",
+          "Key" : false,
+          "Nullable" : false
         } ],
-        "showSortOptions" : false
+        "nrecs" : 10,
+        "selection" : " ",
+        "output_count" : 0,
+        "execmode" : "default_par",
+        "input_count" : 1,
+        "name" : "name",
+        "dataset" : " "
+      }
+    }, {
+      "id" : "bdec1380-662c-44a3-b33f-607df905de66",
+      "type" : "binding",
+      "op" : "volumes",
+      "app_data" : {
+        "ui_data" : {
+          "label" : "DummyConnection_1",
+          "image" : "/data-intg/flows/graphics/palette/volumes.svg",
+          "x_pos" : 586.08,
+          "y_pos" : 332.64
+        }
+      },
+      "inputs" : [ {
+        "id" : "",
+        "app_data" : {
+          "ui_data" : {
+            "cardinality" : { },
+            "label" : "inPort"
+          }
+        }
+      } ],
+      "outputs" : [ {
+        "id" : "",
+        "app_data" : {
+          "ui_data" : {
+            "cardinality" : { },
+            "label" : "outPort"
+          }
+        },
+        "parameters" : {
+          "buf_mode" : "default"
+        }
+      } ],
+      "parameters" : {
+        "input_count" : 0,
+        "output_count" : 0,
+        "execmode" : "default_par",
+        "outputcolProperties" : [ ]
+      },
+      "connection" : {
+        "ref" : "cc4daecf-314a-4c7a-9707-e50403879450",
+        "properties" : {
+          "outputName" : "Link_1",
+          "read_mode" : "read_single",
+          "stageDescription" : "",
+          "url" : "",
+          "valueDerivation" : [ ]
+        },
+        "fileData" : {
+          "stageName" : "volumes",
+          "fileName" : "",
+          "bucketName" : "",
+          "op" : "existing-asset"
+        },
+        "connData" : {
+          "stageName" : "volumes",
+          "connectionName" : "DummyConnection",
+          "op" : "existing-asset"
+        },
+        "project_ref" : "78f1b837-bc4a-4441-9c6f-354598e12b88"
       }
     } ],
     "app_data" : {
@@ -187,36 +250,37 @@
   "schemas" : [ {
     "id" : "19168204-c697-4981-9e29-46af4ee347bf",
     "fields" : [ {
-      "name" : "COLUMN_1",
-      "nullable" : false,
       "metadata" : {
-        "max_length" : 10,
-        "min_length" : 10,
-        "decimal_precision" : 0,
-        "decimal_scale" : 0,
-        "is_key" : false,
-        "is_signed" : true,
         "item_index" : 0,
-        "description" : ""
+        "is_key" : false,
+        "min_length" : 10,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : "",
+        "max_length" : 10,
+        "is_signed" : true
       },
+      "nullable" : false,
+      "name" : "COLUMN_1",
       "app_data" : {
-        "is_unicode_string" : false,
+        "time_scale" : 0,
         "odbc_type" : "CHAR",
-        "type_code" : "STRING",
-        "time_scale" : 0
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
       },
       "type" : "string"
     } ]
   } ],
   "app_data" : {
     "datastage" : {
-      "version" : "3.0.5",
-      "flowRunPriorityQueue" : "",
-      "date_format" : "",
       "timestamp_format" : "",
       "decimal_separator" : "",
+      "flowRunPriorityQueue" : "",
       "time_format" : "",
-      "message_handlers" : [ ]
+      "date_format" : "",
+      "message_handlers" : [ ],
+      "version" : "3.0.5",
+      "external_message_handlers" : [ ]
     },
     "additionalProperties" : {
       "runMode" : "ETL",
