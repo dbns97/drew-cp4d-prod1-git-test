@@ -8,8 +8,8 @@
   "rov" : {
     "mode" : 0,
     "member_roles" : {
-      "1000331002" : {
-        "user_iam_id" : "1000331002",
+      "1000330999" : {
+        "user_iam_id" : "1000330999",
         "roles" : [ "OWNER" ]
       }
     }
@@ -500,7 +500,7 @@
       "group" : "general",
       "displayGroup" : "fileFormat",
       "displayOrdinal" : 60,
-      "supported_products" : [ "catalog", "cpd", "datarefinery", "mdi", "ml", "studio" ],
+      "supported_products" : [ "ai_factsheet", "autoai", "catalog", "cpd", "datarefinery", "decision_optimization", "deployments", "federated_learning", "governance", "masking_flow", "mdi", "notebook", "orchestration_pipelines", "rstudio", "spss_modeler" ],
       "user_defined" : false,
       "user_defined_for_external" : false
     }, {
@@ -558,7 +558,7 @@
       "group" : "general",
       "displayGroup" : "fileFormat",
       "displayOrdinal" : 40,
-      "supported_products" : [ "catalog", "cpd", "datarefinery", "mdi", "ml", "studio" ],
+      "supported_products" : [ "ai_factsheet", "autoai", "catalog", "cpd", "datarefinery", "decision_optimization", "deployments", "federated_learning", "governance", "masking_flow", "mdi", "notebook", "orchestration_pipelines", "rstudio", "spss_modeler" ],
       "user_defined" : false,
       "user_defined_for_external" : false
     }, {
@@ -1847,14 +1847,14 @@
       "values" : [ {
         "value" : "delete",
         "label" : "Delete",
-        "supported_products" : [ "catalog", "cpd", "datastage", "datastage_scapi", "mdi", "ml", "studio" ]
+        "supported_products" : [ "ai_factsheet", "autoai", "catalog", "cpd", "datastage", "datastage_scapi", "decision_optimization", "deployments", "federated_learning", "governance", "masking_flow", "mdi", "notebook", "orchestration_pipelines", "rstudio", "spss_modeler" ]
       }, {
         "value" : "write",
         "label" : "Write"
       }, {
         "value" : "write_raw",
         "label" : "Write binary data",
-        "supported_products" : [ "catalog", "cpd", "datastage", "datastage_scapi", "mdi", "ml", "studio" ]
+        "supported_products" : [ "ai_factsheet", "autoai", "catalog", "cpd", "datastage", "datastage_scapi", "decision_optimization", "deployments", "federated_learning", "governance", "masking_flow", "mdi", "notebook", "orchestration_pipelines", "rstudio", "spss_modeler" ]
       } ],
       "group" : "general",
       "displayGroup" : "generalTarget",
