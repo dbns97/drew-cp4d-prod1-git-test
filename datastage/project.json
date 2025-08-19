@@ -10,12 +10,12 @@
     "iam_id" : "",
     "git_user" : "dbns97"
   },
-  "commit-time" : "2025-08-18T09:14:50Z",
-  "commit-sha" : "7c17bd4da2a07d950632ba4afb2b2ff5b064a181",
+  "commit-time" : "2025-08-19T01:18:21Z",
+  "commit-sha" : "648661e0a20c0717547b8f12dcf2bdff48f39ea6",
   "readme" : {
     "name" : "DataStage-README.json",
-    "sha" : "cd6af34de44ccdda3764940dc46b80cf9621bcc0",
-    "size" : 2406,
+    "sha" : "b5a27b7897f2a423fbd324ef529c51fe6a815aba",
+    "size" : 2405,
     "asset_type" : "readme",
     "resource_key" : "",
     "iam_id" : "",
@@ -2377,7 +2377,7 @@
     "DummyConnection" : {
       "id" : "bd808427-9b0d-4b9e-b48c-43f917877cb2",
       "name" : "DummyConnection",
-      "sha" : "02c05d561804dfc32117a71e8254990b8e68e696",
+      "sha" : "a22de8a99720f733d975ceb01bcf22878b870583",
       "size" : 58888,
       "updated_at" : "2024-11-28T23:48:03Z",
       "asset_type" : "connection",
