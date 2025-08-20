@@ -1,7 +1,7 @@
 {
   "datasource_type" : "9f30e3c3-b854-4144-b5c3-98b7a835dc79",
   "data_source_definition_searchable" : "internal-nginx-svc.dm.svc|12443|dm::beta2-nfs-mettleci",
-  "description" : "test description 6567890 adsfdasfdasfdf\n\nsdfghjk asdinhfidosnfioadsnmfiodsanfoiadnsfdsafadsfs\n\nasdfdasf\n\ndfghuytfvbnjtg789.    asdfjnidlasjnflkdsjmfoljasdlkfdsfs\n\nuefuihdfuhp372hruhiudshaifojeq4.  3742389714839271498",
+  "description" : "test description 6567890 adsfdasfdasfdf asdgfdasfdasfdasf\n\nsdfghjk asdinhfidosnfioadsnmfiodsanfoiadnsfdsafadsfs\n\nasdfdasf\n\ndfghuytfvbnjtg789.    asdfjnidlasjnflkdsjmfoljasdlkfdsfs\n\nuefuihdfuhp372hruhiudshaifojeq4.  3742389714839271498",
   "name" : "DummyConnection",
   "flags" : [ "parameterized" ],
   "origin_country" : "us",
