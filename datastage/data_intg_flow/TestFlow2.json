@@ -132,68 +132,6 @@
         "pipeline_id_ref" : "e4f8f7ed-99df-4dbb-b851-9b94feea979a",
         "name" : "TestSubflow1"
       }
-    }, {
-      "outputs" : [ {
-        "id" : "",
-        "app_data" : {
-          "ui_data" : {
-            "label" : "outPort",
-            "cardinality" : { }
-          }
-        },
-        "parameters" : {
-          "buf_mode" : "default"
-        }
-      } ],
-      "op" : "volumes",
-      "inputs" : [ {
-        "id" : "",
-        "app_data" : {
-          "ui_data" : {
-            "label" : "inPort",
-            "cardinality" : { }
-          }
-        }
-      } ],
-      "connection" : {
-        "ref" : "cc4daecf-314a-4c7a-9707-e50403879450",
-        "project_ref" : "78f1b837-bc4a-4441-9c6f-354598e12b88",
-        "fileData" : {
-          "bucketName" : "",
-          "op" : "existing-asset",
-          "fileName" : "",
-          "stageName" : "volumes"
-        },
-        "connData" : {
-          "op" : "existing-asset",
-          "stageName" : "volumes",
-          "connectionName" : "DummyConnection"
-        },
-        "properties" : {
-          "outputName" : "Link_1",
-          "read_mode" : "read_single",
-          "valueDerivation" : [ ],
-          "stageDescription" : "",
-          "url" : ""
-        },
-        "name" : "DummyConnection"
-      },
-      "id" : "5bb8b9d9-7f9b-4cc4-9684-6cf51fffa48b",
-      "type" : "binding",
-      "app_data" : {
-        "ui_data" : {
-          "image" : "/data-intg/flows/graphics/palette/volumes.svg",
-          "x_pos" : 506.88,
-          "label" : "DummyConnection_1",
-          "y_pos" : 205.92
-        }
-      },
-      "parameters" : {
-        "output_count" : 0,
-        "input_count" : 0,
-        "execmode" : "default_par",
-        "outputcolProperties" : [ ]
-      }
     } ],
     "description" : "test 3",
     "id" : "be977ce5-6283-408a-9a39-a69b9241106a",
