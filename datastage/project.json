@@ -10,12 +10,12 @@
     "iam_id" : "",
     "git_user" : "dbns97"
   },
-  "commit-time" : "2025-08-22T07:20:27Z",
-  "commit-sha" : "864cde09f1fff724cf0e3fa0685bcfa34f0945dc",
+  "commit-time" : "2025-08-22T07:22:00Z",
+  "commit-sha" : "a9d2920b134bbf5d28658663f7979d25aec2c3d0",
   "readme" : {
     "name" : "DataStage-README.json",
-    "sha" : "ba98e2acaf9632d6647c31002933cc7ff9030405",
-    "size" : 2405,
+    "sha" : "60def24fc8d27046cc1e7a930aaacc7ede2097dc",
+    "size" : 2495,
     "asset_type" : "readme",
     "resource_key" : "",
     "iam_id" : "",
@@ -58,6 +58,19 @@
       "resource_key" : "",
       "iam_id" : "1000330999",
       "user_name" : "admin",
+      "git_user" : "dbns97"
+    },
+    "TestFlow4_copy" : {
+      "id" : "f8f776de-1815-46ba-91d3-c2ddf6204ec0",
+      "name" : "TestFlow4_copy",
+      "sha" : "98e8d87d41e0fdf34303ba0d91d3054a7deacc8e",
+      "size" : 6122,
+      "created_at" : "2025-08-22T07:21:44Z",
+      "updated_at" : "1755847304410",
+      "asset_type" : "data_intg_flow",
+      "resource_key" : "",
+      "iam_id" : "1000331037",
+      "user_name" : "drew",
       "git_user" : "dbns97"
     },
     "commit-test-flow" : {
