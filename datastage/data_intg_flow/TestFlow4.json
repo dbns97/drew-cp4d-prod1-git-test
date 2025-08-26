@@ -137,7 +137,7 @@
         "name" : "TestSubflow1"
       }
     } ],
-    "description" : "",
+    "description" : "asdf",
     "id" : "209b0373-104a-466a-8b90-b4fedd5b97c9",
     "app_data" : {
       "datastage" : {
