@@ -1,8 +1,8 @@
 {
-  "project" : "DrewTest",
-  "projectId" : "78f1b837-bc4a-4441-9c6f-354598e12b88",
+  "project" : "DrewMigrationTest",
+  "projectId" : "321cfebe-851c-48db-9b07-bb6de272d79f",
   "created_by" : "drew",
-  "created_at" : "2025-09-01T05:59:35.795496156Z",
+  "created_at" : "2025-09-02T05:26:39.685241908Z",
   "environment" : "cp4d",
   "services_info" : [ {
     "name" : "ds-canvas",
@@ -56,6 +56,10 @@
   }, {
     "name" : "TestFlow2.DataStage job.",
     "type" : "job",
+    "location" : ""
+  }, {
+    "name" : "TestCase1 copy 1.",
+    "type" : "data_intg_test_case",
     "location" : ""
   }, {
     "name" : "uncompilable_test",
