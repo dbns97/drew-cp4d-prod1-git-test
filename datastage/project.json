@@ -10,12 +10,12 @@
     "iam_id" : "",
     "git_user" : "dbns97"
   },
-  "commit-time" : "2025-09-02T05:26:44Z",
-  "commit-sha" : "9a83762b67513e117e65908e521b76fece8606a8",
+  "commit-time" : "2025-09-03T09:00:17Z",
+  "commit-sha" : "c71ba7410b409388c2290a53dd42dbf83a8e1ecf",
   "readme" : {
     "name" : "DataStage-README.json",
-    "sha" : "900f671076a85ed9034e25f546a12889f05d937f",
-    "size" : 2793,
+    "sha" : "31a528c284f12749d79d1bec41472ff73ec4c676",
+    "size" : 2867,
     "asset_type" : "readme",
     "resource_key" : "",
     "iam_id" : "",
@@ -2411,6 +2411,19 @@
       "iam_id" : "1000331004",
       "git_user" : "dbns97"
     },
+    "GenericS3_1" : {
+      "id" : "82547f1e-ad53-4ca1-b069-55942e5ce31a",
+      "name" : "GenericS3_1",
+      "sha" : "2bdc79af29e2f7cce86feb76bc9332dffa008cc7",
+      "size" : 76427,
+      "created_at" : "2025-08-28T07:46:11Z",
+      "updated_at" : "1756367171778",
+      "asset_type" : "connection",
+      "resource_key" : "",
+      "iam_id" : "1000331037",
+      "user_name" : "drew",
+      "git_user" : "dbns97"
+    },
     "S3-Connection1" : {
       "id" : "3fe2fda7-2ae0-4cfe-bcac-ce8a665d2975",
       "name" : "S3-Connection1",
@@ -2517,7 +2530,7 @@
       "sha" : "07ba181645f4a9ebf96ea3a99329da03b314f738",
       "size" : 838,
       "created_at" : "2025-09-02T05:25:52Z",
-      "updated_at" : "1756790752279",
+      "updated_at" : "2025-09-02T05:25:52Z",
       "asset_type" : "data_intg_test_case",
       "resource_key" : "",
       "iam_id" : "1000331037",
