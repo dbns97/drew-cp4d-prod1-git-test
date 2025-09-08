@@ -113,6 +113,19 @@
     }
   },
   "orchestration_flow" : {
+    "TestPipeline" : {
+      "id" : "6ee6acf1-71be-4eaa-ad71-30b81b90260b",
+      "name" : "TestPipeline",
+      "sha" : "8672cea88c27603cfe4266da603b284eeaebbb9e",
+      "size" : 7328,
+      "created_at" : "2025-03-11T02:40:34Z",
+      "updated_at" : "2025-03-11T02:40:35Z",
+      "asset_type" : "orchestration_flow",
+      "resource_key" : "",
+      "iam_id" : "1000330999",
+      "user_name" : "admin",
+      "git_user" : "dbns97"
+    }
   },
   "jobs" : {
     "BATCH_SNP_MDW_AD_Fact.DataStage sequence" : {
