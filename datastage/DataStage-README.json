@@ -4,7 +4,8 @@
   "created_by" : "drew",
   "created_at" : "2025-09-05T01:38:10.207488431Z",
   "environment" : "cp4d",
-  "services_info" : [ {
+  "services_info" : [ 
+  {
     "name" : "ds-canvas",
     "version" : "520.0.16"
   }, {
@@ -50,10 +51,6 @@
   }, {
     "name" : "3d3fabe8-f7f1-4223-8e15-d08fe41ca2b1-DataStage_settings",
     "type" : "data_intg_project_settings"
-  }, {
-    "name" : "TestPipeline.",
-    "type" : "orchestration_flow",
-    "location" : ""
   }, {
     "name" : "uncompilable_test.DataStage job",
     "type" : "job"

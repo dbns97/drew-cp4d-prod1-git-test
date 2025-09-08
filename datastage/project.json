@@ -112,8 +112,7 @@
       "git_user" : "dbns97"
     }
   },
-  "orchestration_flow" : {
-  },
+  "orchestration_flow" : { },
   "jobs" : {
     "BATCH_SNP_MDW_AD_Fact.DataStage sequence" : {
       "id" : "5fce72f7-79e2-4eb5-a4c7-d65981f08e96",
